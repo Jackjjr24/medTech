@@ -2,6 +2,7 @@ import streamlit as st
 from pathlib import Path
 import google.generativeai as genai
 
+genai.configure(api_key="AIzaSyA2-usPnvsTsLC4T8BdC_5JhSzaP3p5C9I")
 
 genai.configure(api_key="AIzaSyA2-usPnvsTsLC4T8BdC_5JhSzaP3p5C9I")
 
@@ -56,6 +57,7 @@ st.markdown(
    .block-container.st-emotion-cache-gh2jqd.ea3mdgi5{
    border-radius: 16px;
    background-color:#000000;
+   color: white; /* Set text color to white */
    } ''',
     unsafe_allow_html=True
 )
@@ -78,5 +80,3 @@ if submit_button:
 
     response = model.generate_content(prompt_parts)
     st.write(response.text)
-
-
