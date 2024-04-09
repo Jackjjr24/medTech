@@ -58,6 +58,7 @@ st.markdown(
    .block-container.st-emotion-cache-gh2jqd.ea3mdgi5{
    border-radius: 16px;
    background-color:#000000;
+   color: white; /* Set text color to white */
    } 
    ''',
     unsafe_allow_html=True
