@@ -5,11 +5,11 @@ st.markdown(
         <style>
         body {
             font-family: 'Vaporwave', cursive;
-            background-color: black;
+            background-color: beige;
             color: white;
         }
         .sidebar .sidebar-content {
-            background-color: black;
+            background-color: beige;
         }
         </style>
         """,
@@ -24,7 +24,7 @@ st.markdown(
     '''
     <style>
     .appview-container.st-emotion-cache-1wrcr25.ea3mdgi9{
-    background-color:#000000;
+    background-color:#D5B895;
     }
     </style>
     ''',
