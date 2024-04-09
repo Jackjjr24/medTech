@@ -41,11 +41,11 @@ safety_settings = [
 st.markdown(
    '''<style>
    .appview-container.st-emotion-cache-1wrcr25.ea3mdgi9{
-       background-color:#000000;
+       background-color:#D5B895;
     }
    .block-container.st-emotion-cache-gh2jqd.ea3mdgi5{
    border-radius: 16px;
-   background-color:#000000;
+   background-color:#D5B895;
    } ''',
     unsafe_allow_html=True
 )
