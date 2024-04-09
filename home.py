@@ -24,7 +24,8 @@ st.markdown(
     '''
     <style>
     .appview-container.st-emotion-cache-1wrcr25.ea3mdgi9{
-    background-color:#D5B895;
+    background-color:#000000;
+    color: white; /* Set text color to white */
     }
     </style>
     ''',
