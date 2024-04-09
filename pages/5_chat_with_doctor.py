@@ -10,6 +10,7 @@ st.markdown(
         }
         .sidebar .sidebar-content {
             background-color: #000000;
+            color: white; /* Set text color to white */
         }
         </style>
         """,
